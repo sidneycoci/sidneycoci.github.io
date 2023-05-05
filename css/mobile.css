@@ -1,0 +1,86 @@
+@media (max-width:414px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .logo {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+
+    #classcontent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "coursework"
+    }
+
+    .row {
+        margin: 5px 10px;
+    }
+
+    .project {
+        margin: 5px 0;
+        padding: 10px;
+    }
+
+    .passion {
+        display:block;
+        margin: 20px 50px;
+        padding: 10px;
+    }
+    
+    .passionpic {
+        flex: none;
+    }
+    
+    .passionpic img {
+        width: 80%;
+        margin: 10px;
+        margin-left: 30px;
+        justify-content: center;
+    }
+    
+    .passiondescrip {
+        flex: none;
+        display: block;
+    }
+
+    .passiondescrip h3 {
+        font-size: 20px;
+        text-align:center;
+    }
+
+    header {
+        display: inline;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navul li {
+        display: inline-block;
+        padding: 15px;
+        margin: 2px;
+        border: 1px solid #FFF;
+        border-radius: 25px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "links"
+        "copyright"
+    }
+
+    .footer p {
+        padding: 10px;
+    }
+
+    .links {
+        margin:20px;
+    }
+}

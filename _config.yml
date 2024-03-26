@@ -8,27 +8,27 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Sidney Cocimano's Personal Website"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Sidney Cocimano"
+description              : &description "Computer Science Student at the University of Miami"
+url                      : https://sidneycoci.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "sidneycoci.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  avatar           : "profheadshot.jpeg"
+  name             : "Sidney Cocimano"
+  pronouns         : "she/her"  
+  bio              : "Hi! I am a second year student at the University of Miami pursuing a B.A. in Computer Science with an additional major in Interactive Media and a minor in Game Design. I have a passion for creating digital experiences and have worked with a variety of media types through both school and work. I currently work as a UX/UI Designer at VESL (Virtual Experiences Simulation Lab), and have worked on projects involving AR and VR technologies. "
+  location         : "Miami, FL // Washington, D.C."
+  employer         : "VESL @ University of Miami"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "sgc92@miami.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -39,11 +39,8 @@ author:
   researchgate     : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
+  github           : "academicpages" 
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
@@ -70,7 +67,6 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # URL
 
 
 # Site Settings

@@ -12,7 +12,7 @@ title                    : "Sidney Cocimano's Personal Website"
 title_separator          : "-"
 name                     : &name "Sidney Cocimano"
 description              : &description "Computer Science Student at the University of Miami"
-url                      : https://sidneycoci.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://sidneycocimnao.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sidneycoci.github.io"
 

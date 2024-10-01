@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Sidney Cocimano</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
 
     <nav id="desktop-nav">
-        <div class="logo"> Sidney Cocimano </div>
+        <div class="logo"> *˚✧｡ SCOCI </div>
 
         <div>
             <ul class ="nav-links">
@@ -37,16 +37,17 @@
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                     <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 </ul>
+              </div>
         </div>
     </nav>
 
-    <section id="profile">
+    <section id="profile" class="page-section">
         <div class = "section__pic-container">
             <img src ="./assets/profile-pic.png" alt="Sidney Cocimano photo">
         </div>
 
         <div class="section__text">
-            <p class="section__text__p1"> Hello, I'm</p>
+            <p class="section__text__p1"> Hello! I'm</p>
             <h1 class="title">Sidney Cocimano</h1>
             <p class="section__text__p2">UX/UI Designer</p>
             <div class="btn-container">
@@ -56,66 +57,44 @@
 
             <div id="socials-container">
                 <img src="./assets/linkedin.png" alt="linkedin icon" class="icon" onclick="location.href='https://www.linkedin.com/in/sidneycocimano/'">
-                <img src="./assets/github.png" alt="github icon" class="icon" onclick="location.href='https://www.github.com'">
+                <!-- <img src="./assets/github.png" alt="github icon" class="icon" onclick="location.href='https://www.github.com'"> -->
             </div>
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="page-section">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
-        <div class="section-container">
-          <div class="section__pic-container">
+        <div class="section-container-about">
+          <div class="section__pic-container1">
             <img
-              src="./assets/about-pic.png"
+              src="./assets/aboutme.png"
               alt="Profile picture"
               class="about-pic"
             />
           </div>
           <div class="about-details-container">
-            <div class="about-containers">
-              <div class="details-container">
-                <img
-                  src="./assets/experience.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <h3>Experience</h3>
-                <p>2+ years <br /> UX/UI Design</p>
-              </div>
-              <div class="details-container">
-                <img
-                  src="./assets/education.png"
-                  alt="Education icon"
-                  class="icon"
-                />
-                <h3>Education</h3>
-                <p>B.A. Computer Science & Interactive Media</p>
-              </div>
-            </div>
             <div class="text-container">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                reprehenderit et laborum, rem, dolore eum quod voluptate
-                exercitationem nobis, nihil esse debitis maxime facere minus sint
-                delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-                reiciendis ea magnam? Nulla, impedit fuga!
+              <p class ="bit_bigger">
+                <div class="special-text">Welcome to my portfolio!</div> <br>
+                <br>
+                I am a third-year student at the <strong>University of Miami</strong>, currently
+                pursuing a B.A. in Computer Science and Interactive Media.<br> 
+                <br>
+                For the past two years, I have been working as a UX/UI Designer for the Institute for Data Science and Computing's 
+                VESL (Virtual Experience Simulation Lab) at UM. Through this experience, I have learned how to design
+                programs for multiple disciplines, taking them from the ideation phase with the Principal Investigators all the way
+                to working prototypes that I pass off to developers. This experience has been incredibly formative for me and really has
+                further fostered my love for all things UX and Frontend design.
               </p>
             </div>
           </div>
         </div>
-        <!-- <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#experience'"
-        /> -->
       </section>
     
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+    <section id="experience" class="page-section">
+      <p class="section__text__p1">Check out My</p>
+      <h1 class="title">Skill Sets</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
@@ -198,65 +177,120 @@
                 </div>
               </article>
             </div>
-          </div>
-          
+          </div> 
     </section>
-    <section id ="projects">
+
+    <section id ="projects" class="page-section">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
+        <div class="project-grid">
+          <div class="details-container color-container project-container">
             <div class="article-container">
-              <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+              <img src="./assets/stress_gen_cover.png" alt="Project 1" class="project-img">
             </div>
-            <h2 class="experience-subtitle project-title">Project One</h2>
+            <h2 class="experience-subtitle project-title">VR Stress Generator</h2>
+            <p class="descrip">UX/UI Design ✰ User Testing ✰ Virtual Reality</p>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                Github
+              <button class="btn btn-color-2 project-btn" onclick="location.href='stress_gen.html'">
+                Check Out!
               </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+              <button class="btn btn-color-2 project-btn" onclick="location.href=''">
                 Live Demo
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
+          <div class="details-container color-container project-container">
             <div class="article-container">
-              <img src="./assets/project-3.png" alt="Project 1" class="project-img">
+              <img src="./assets/fyd.png" alt="Project 1" class="project-img">
   
             </div>
-            <h2 class="experience-subtitle project-title">Project Two</h2>
+            <h2 class="experience-subtitle project-title">UMVerse</h2>
+            <p class="descrip">UX/UI Design ✰ User Testing ✰ Virtual Reality </p>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                Github
+              <button class="btn btn-color-2 project-btn" onclick="location.href='umverse.html'">
+                Check Out!
               </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                Live Demo
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://news.miami.edu/stories/2024/09/welcoming-students-to-a-new-reality.html'">
+                Article
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
+          <div class="details-container color-container project-container">
             <div class="article-container">
-              <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+              <img src="./assets/health_app.png" alt="Project 2" class="project-img">
   
             </div>
-            <h2 class="experience-subtitle project-title">Project Two</h2>
+            <h2 class="experience-subtitle project-title">HealthMyxer</h2>
+            <p class="descrip">Graphic Design ✰ Logo & Branding ✰ Mobile Design</p>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                Github
+              <button class="btn btn-color-2 project-btn" onclick="location.href='healthmyxer.html'">
+                Check Out!
               </button>
               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
                 Live Demo
               </button>
             </div>
           </div>
+
+          <div class="details-container color-container project-container">
+            <div class="article-container">
+              <img src="./assets/health_app.png" alt="Project 2" class="project-img">
+  
+            </div>
+            <h2 class="experience-subtitle project-title">VR Exposure Therapy</h2>
+            <p class="descrip">UX/UI Design ✰ User Testing ✰ Virtual Reality</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='exptherapy.html'">
+                Check Out!
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://news.miami.edu/stories/2023/04/exploring-technologys-future-unites-computing-community-at-the-u.html'">
+                Article
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container project-container">
+            <div class="article-container">
+              <img src="./assets/comingsoon.png" alt="Project 2" class="project-img">
+  
+            </div>
+            <h2 class="experience-subtitle project-title">Marine Music</h2>
+            <p class="descrip">UX/UI Design ✰ User Testing ✰ Virtual Reality</p>
+            <!-- <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                Live Demo
+              </button>
+            </div> -->
+          </div>
+
+          <div class="details-container color-container project-container">
+            <div class="article-container">
+              <img src="./assets/Cover.png" alt="Project 2" class="project-img">
+  
+            </div>
+            <h2 class="experience-subtitle project-title">Intuition Magazine</h2>
+            <p class="descrip">Graphic Design ✰ Adobe Suite</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='intuition.html'">
+                Check Out!
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          
         </div>
       </div>
 
 
     </section>
 
-    <section id="contact">
+    <section id="contact" class="page-section">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
@@ -265,7 +299,7 @@
           src="./assets/email.png" 
           alt="Email icon" 
           class="icon contact-icon email-icon">
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:sgc92@miami.edu">sgc92@miami.edu</a></p>
 
           <div class="contact-info-container">
             <img 
@@ -290,17 +324,6 @@
       </nav>
       <p>Copyright &#169; 2024 Sidney Cocimano. All Rights Reserved. </p>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
     <script src="script.js"></script>
 </body>
 </html>

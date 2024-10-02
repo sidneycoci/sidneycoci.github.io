@@ -593,6 +593,22 @@ strong{
     width: 600px;
 }
 
+.right-content .process {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: Adds space between the images */
+}
+
+.right-content .process .step {
+    text-align: center; /* Centers images inside each step */
+}
+
+.right-content .process .step img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto;
+}
+
 
 
 

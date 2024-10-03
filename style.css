@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 
 * {
@@ -10,7 +11,7 @@
 }
 
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -320,7 +321,7 @@ section {
     flex: 1;
     background: #101111;
     border-radius: 2rem;
-    border: #BFDAA4 0.1rem solid;
+    border: #BFDAA4 0.1rem solid; 
     border-color: #BFDAA4;
     text-align: center;
 }
@@ -429,6 +430,32 @@ article .icon {
 .project-btn {
     color: white;
     border-color: #BFDAA4;
+}
+
+.project-container {
+    padding: 1.5rem;
+    flex: 1;
+    text-align: center;
+}
+
+.project-container img{
+    transition: all 0.5s;
+}
+
+.project-container a {
+    text-decoration: none;
+}
+
+.project-container a:hover {
+    text-decoration: none;
+}
+
+.project-container img:hover {
+    border-radius: 2rem;
+    box-shadow: 10px 10px 20px rgba(187, 185, 185, 0.5);
+    transform: scale(1.2);
+    z-index: 2;
+    margin: 15px;
 }
 
 /*Contact*/
@@ -606,6 +633,11 @@ strong{
 
 .right-content .process .step img {
     max-width: 100%; /* Makes images responsive */
+    height: auto;
+}
+
+.right-content img{
+    width: 700px;
     height: auto;
 }
 
